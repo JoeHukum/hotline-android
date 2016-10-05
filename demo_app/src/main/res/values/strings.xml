@@ -1,7 +1,10 @@
 <resources>
-    <string name="app_name">DemoApp</string>
+    <string name="app_name">Joe Chat Demo</string>
     <string name="label_faq">Your users can view all frequently asked questions before reaching out to you</string>
     <string name="label_btn_faq">FAQs</string>
     <string name="label_conversations">Your users can message you in real time</string>
-    <string name="label_btn_conversations">Conversations</string>
+    <string name="label_btn_conversations">Start Chat</string>
+    <string name="name_hint">Name</string>
+    <string name="email_hint">Email</string>
+    <string name="phone_hint">Phone Number</string>
 </resources>

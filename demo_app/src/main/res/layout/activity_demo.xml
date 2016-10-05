@@ -9,12 +9,45 @@
         android:layout_height="match_parent"
         android:orientation="vertical">
 
+        <EditText
+            android:id="@+id/name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/name_hint"
+            android:lines="1"
+            android:inputType="textPersonName"
+            android:layout_marginTop="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"/>
+
+        <EditText
+            android:id="@+id/email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/email_hint"
+            android:lines="1"
+            android:inputType="textEmailAddress"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"/>
+
+        <EditText
+            android:id="@+id/phone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/phone_hint"
+            android:lines="1"
+            android:inputType="phone"
+            android:maxEms="10"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"/>
+
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="8dp"
             android:padding="4dp"
             android:text="@string/label_faq"
+            android:visibility="gone"
             android:textAppearance="?android:attr/textAppearance"/>
 
         <Button
@@ -22,6 +55,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="4dp"
+            android:visibility="gone"
             android:text="@string/label_btn_faq"/>
 
         <TextView
@@ -30,6 +64,7 @@
             android:layout_margin="8dp"
             android:padding="4dp"
             android:text="@string/label_conversations"
+            android:visibility="gone"
             android:textAppearance="?android:attr/textAppearance"/>
 
         <Button
